@@ -1,12 +1,16 @@
 import { FC } from "react";
+import Orion from "../assets/images/me.jpg";
 
 const About: FC = () => {
   return (
     <section className="about">
-      <header className="section-header">
-        <h1>About</h1>
-      </header>
-      <div className="section-info">
+      <div className="about-column-1">
+        <header className="about-header section-header">
+          <h1>About</h1>
+        </header>
+        <img className="about-img" src={Orion} alt="" />
+      </div>
+      <div className="about-info section-info">
         <p>
           Coding is more than just a profession or an activity that I enjoy
           doing. <u>Coding gives me the ability to create</u> whatever I want to
