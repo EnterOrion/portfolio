@@ -15,8 +15,8 @@ const About: FC = () => {
           Coding is more than just a profession or an activity that I enjoy
           doing. <u>Coding gives me the ability to create</u> whatever I want to
           create in the world, and that's one of the most freeing, powerful
-          experiences. Programming has taught me how to be a better problem
-          solver by teaching me how to break things down into smaller steps and
+          feelings. Programming has taught me how to be a better problem solver
+          by teaching me how to break things down into smaller steps and
           understand the logic behind what's happening.
         </p>
         <br />
@@ -29,7 +29,7 @@ const About: FC = () => {
         <br />
         <p>
           I'm constantly learning and finding new ways to improve. I strive to
-          write clean code and work with others to create great web
+          write clean code and collaborate with others to create great web
           applications. Through developing my skills by building projects and
           diligently researching whenever I come across a problem, I am
           confident <u>I could build whatever you would need me to build.</u>
