@@ -9,6 +9,9 @@
   padding-top: 3.5rem;
   display: flex;
   flex-direction: column;
+  a {
+    color: rgb(241, 245, 249);
+  }
 }
 
 .projects-header {
@@ -27,10 +30,32 @@
 
 .project-description {
   margin: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .project-overview {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Cabin", sans-serif;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 2.7rem;
+  margin-bottom: 0;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  font-weight: 700;
+  margin-top: -0.3rem;
+}
+
+.github-link:hover,
+.preview-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

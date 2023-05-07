@@ -9,6 +9,9 @@ footer {
   .attribution {
     padding-top: 1rem;
   }
+  a {
+    color: #eff3f7;
+  }
 }
 
 .footer-links {
@@ -16,4 +19,8 @@ footer {
   gap: 2.6rem;
   justify-content: center;
   font-size: 3rem;
+}
+
+.fa-paper-plane {
+  margin-top: 0.5rem;
 }
