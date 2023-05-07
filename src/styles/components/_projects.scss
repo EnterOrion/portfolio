@@ -1,0 +1,36 @@
+.projects {
+  background-color: rgb(15, 23, 42);
+  color: rgb(241, 245, 249);
+  padding: 2rem 7rem;
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 4.5rem;
+  border-top: 1px dashed white;
+  padding-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-header {
+  font-size: 2.3rem;
+}
+
+.project-video {
+  border: 1px solid white;
+  height: 450px;
+  width: 600px;
+}
+
+.project-container {
+  display: flex;
+}
+
+.project-description {
+  margin: 1rem;
+}
+
+.project-overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
