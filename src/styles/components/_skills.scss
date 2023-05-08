@@ -33,6 +33,8 @@
   max-width: 1000px;
 }
 
-.skill-header {
-  margin: 0 auto;
+@media (max-width: 500px) {
+  .skills-container {
+    min-width: 80vw;
+  }
 }

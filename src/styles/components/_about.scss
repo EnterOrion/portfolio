@@ -36,3 +36,28 @@
 .about-info {
   margin-top: 120px;
 }
+
+@media (max-width: 850px) {
+  .about-img {
+    height: 375px;
+  }
+  .about-column-1 {
+    min-width: 281.25px;
+  }
+}
+
+@media (max-width: 760px) {
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-img {
+    height: 400px;
+  }
+  .about-info {
+    margin-top: 1rem;
+    margin-left: 0;
+    min-width: 80vw;
+  }
+}
