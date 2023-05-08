@@ -1,0 +1,32 @@
+.contact {
+  background-color: rgb(15, 23, 42);
+  color: rgb(241, 245, 249);
+  padding: 3.5rem 7rem 2.5rem 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Cabin", sans-serif;
+  p {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact {
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
