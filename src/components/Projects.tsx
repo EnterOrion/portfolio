@@ -1,4 +1,9 @@
 import { FC } from "react";
+import Snail from "../assets/icons/caracol.png";
+import Cart from "../assets/icons/cart.png";
+import Journal from "../assets/icons/journal.png";
+import Weather from "../assets/icons/weather.png";
+import Cat from "../assets/icons/cat.png";
 
 const Projects: FC = () => {
   return (
@@ -9,7 +14,10 @@ const Projects: FC = () => {
       <div className="project-container">
         <div className="project-video"></div>
         <div className="project-overview">
-          <div className="project-name">Snail Pic of the Day</div>
+          <div className="project-name">
+            <img className="project-icon" src={Snail} alt="" />
+            Snail Pic of the Day
+          </div>
           <div className="project-links">
             <div className="github-link">
               <a
@@ -38,7 +46,10 @@ const Projects: FC = () => {
       </div>
       <div className="project-container">
         <div className="project-overview">
-          <div className="project-name">Shopping Cart</div>
+          <div className="project-name">
+            <img className="project-icon" src={Cart} alt="" />
+            Shopping Cart
+          </div>
           <div className="project-links">
             <div className="github-link">
               <a
@@ -69,7 +80,10 @@ const Projects: FC = () => {
       <div className="project-container">
         <div className="project-video"></div>
         <div className="project-overview">
-          <div className="project-name">Where is the cat?</div>
+          <div className="project-name">
+            <img className="project-icon" src={Cat} alt="" />
+            Where is the cat?
+          </div>
           <div className="project-links">
             <div className="github-link">
               <a
@@ -98,7 +112,10 @@ const Projects: FC = () => {
       </div>
       <div className="project-container">
         <div className="project-overview">
-          <div className="project-name">Dream Journal</div>
+          <div className="project-name">
+            <img className="project-icon" src={Journal} alt="" />
+            Dream Journal
+          </div>
           <div className="project-links">
             <div className="github-link">
               <a
@@ -129,7 +146,10 @@ const Projects: FC = () => {
       <div className="project-container">
         <div className="project-video"></div>
         <div className="project-overview">
-          <div className="project-name">Weather Application</div>
+          <div className="project-name">
+            <img className="project-icon" src={Weather} alt="" />
+            Weather Application
+          </div>
           <div className="project-links">
             <div className="github-link">
               <a
