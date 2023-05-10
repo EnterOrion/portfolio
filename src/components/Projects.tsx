@@ -44,8 +44,8 @@ const Projects: FC = () => {
           </div>
           <div className="project-description">
             Design is complete! A social media application for sharing songs
-            that have been stuck in your head. The app connects the user's
-            spotify account for authentication and uses Firebase for the
+            that have been stuck in your head. This app connects the user's
+            Spotify account for authentication and uses Firebase for the
             backend, which stores the user's posts. Users will be able to like,
             comment, and add songs to their Spotify playlists that other users
             have posted.
@@ -80,7 +80,7 @@ const Projects: FC = () => {
           </div>
           <div className="project-description">
             A catalogue of snail pictures. Utilizes my own REST API for
-            retrieving pictures and posting new ones (through a separate Admin
+            retrieving pictures and posting new ones (through a separate admin
             dashboard). NodeJS, Express, and MongoDB was used for the backend,
             while React was used for the frontend.
           </div>
@@ -114,7 +114,8 @@ const Projects: FC = () => {
             A mock shopping page for one of my favorite bands. Renders unique
             pages for each individual product. Users can update the state of the
             cart throughout the app, adding or removing products as they please.
-            React, with Zustand for state management, was used.
+            React, along with Zustand for state management, was used for the
+            frontend.
           </div>
         </div>
         <img className="project-video" src={ShoppingCart} />
@@ -177,10 +178,10 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className="project-description">
-            Gives the user the ability to create, read, and delete different
+            Gives the user the ability to create, read, and delete entries about
             dreams that they've had, using local storage to store them. Asks the
             user once a day what they dreamed of last night and then takes them
-            to the journal's home page. It also will note reoccurring dream
+            to the journal's home page. It will also note reoccurring dream
             symbols. React was used for the components.
           </div>
         </div>
@@ -212,10 +213,10 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className="project-description">
-            Utilizes the OpenWeatherMap API to find the weather of the inputted
-            city. The background will change upon different weather conditions.
-            Built in vanilla Javascript and bundled using Webpack, this was my
-            first experience handling asynchronous code.
+            Utilizes the OpenWeatherMap API to find today's weather of the
+            inputted city. The background will change upon different weather
+            conditions. Built in vanilla Javascript and bundled using Webpack,
+            this was my first experience handling asynchronous code.
           </div>
         </div>
       </div>

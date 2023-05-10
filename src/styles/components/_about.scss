@@ -1,5 +1,7 @@
+@import "../utils/variables";
+
 .about {
-  background-color: rgb(15, 23, 42);
+  background-color: $main-color;
   color: rgb(241, 245, 249);
   padding: 2rem 7rem;
   display: flex;
@@ -30,12 +32,12 @@
 }
 
 .about-column-1 {
-  min-width: 337.5px;
+  min-width: 21.094rem;
 }
 
 .about-info {
-  margin-top: 120px;
-  max-width: 800px;
+  margin-top: 7.5rem;
+  max-width: 50rem;
 }
 
 @media (min-width: 1600px) {
@@ -45,11 +47,8 @@
 }
 
 @media (max-width: 850px) {
-  .about-img {
-    height: 375px;
-  }
   .about-column-1 {
-    min-width: 281.25px;
+    min-width: 17.578rem;
   }
   .about-header {
     margin-left: -6.5rem;

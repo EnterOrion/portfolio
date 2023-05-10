@@ -1,5 +1,7 @@
+@import "../utils/variables";
+
 .skills {
-  background-color: rgb(15, 23, 42);
+  background-color: $main-color;
   color: rgb(241, 245, 249);
   padding: 2rem 7rem;
   display: flex;
@@ -30,7 +32,7 @@
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 1.5rem;
-  max-width: 1000px;
+  max-width: 62.5rem;
 }
 
 @media (max-width: 500px) {

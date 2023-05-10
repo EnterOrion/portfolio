@@ -1,5 +1,7 @@
+@import "../utils/variables";
+
 .projects {
-  background-color: rgb(15, 23, 42);
+  background-color: $main-color;
   color: rgb(241, 245, 249);
   padding: 2rem 7rem;
   display: flex;
@@ -34,7 +36,7 @@
   text-align: center;
   font-size: 1.1rem;
   margin-top: 0.5rem;
-  max-width: 800px;
+  max-width: 50rem;
 }
 
 .project-overview {
@@ -54,7 +56,7 @@
   gap: 0.7rem;
   align-items: center;
   justify-content: center;
-  min-width: 450px;
+  min-width: 28.125rem;
 }
 
 .project-links {

@@ -1,5 +1,7 @@
+@import "../utils/variables";
+
 .contact {
-  background-color: rgb(15, 23, 42);
+  background-color: $main-color;
   color: rgb(241, 245, 249);
   padding: 3.5rem 7rem 2.5rem 7rem;
   display: flex;

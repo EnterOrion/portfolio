@@ -22,9 +22,9 @@ const About: FC = () => {
         <br />
         <p>
           {" "}
-          Those skills have had a widespread positive influence in my life and
-          being able to break everything down into an elegant simplicity is
-          <u> something that I find to be profound.</u>
+          These skills have had a widespread positive influence on my life and
+          being able to break things down into an elegant simplicity is{" "}
+          <u>something that I find to be profound.</u>
         </p>
         <br />
         <p>
