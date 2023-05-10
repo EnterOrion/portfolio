@@ -4,7 +4,7 @@ const Contact: FC = () => {
   return (
     <section className="contact">
       <p>
-        <em>Connect with me by clicking one of those links down below!</em>
+        <em>Connect with me by clicking one of the links down below!</em>
       </p>
     </section>
   );

@@ -1,4 +1,11 @@
 import { FC } from "react";
+import SongGif from "../assets/images/SongSocial.gif";
+import SnailPic from "../assets/images/SnailPicOfTheDay.gif";
+import WeatherApp from "../assets/images/WeatherApp.gif";
+import ShoppingCart from "../assets/images/ShoppingCart.gif";
+import CatGif from "../assets/images/WhereIsTheCat.gif";
+import DreamJournal from "../assets/images/DreamJournal.gif";
+import Music from "../assets/icons/music.png";
 import Snail from "../assets/icons/caracol.png";
 import Cart from "../assets/icons/cart.png";
 import Journal from "../assets/icons/journal.png";
@@ -12,7 +19,42 @@ const Projects: FC = () => {
         <h1>Projects</h1>
       </header>
       <div className="project-container">
-        <div className="project-video"></div>
+        <div className="project-overview">
+          <div className="project-name">
+            <img className="project-icon" src={Music} alt="" />
+            On Repeat (Beta)
+          </div>
+          <div className="project-links">
+            <div className="github-link">
+              <a
+                href="https://github.com/EnterOrion/song-social"
+                target="_blank"
+              >
+                Code
+              </a>
+            </div>
+            <div className="preview-link">
+              <a
+                href="https://enterorion.github.io/song-social/#/"
+                target="_blank"
+              >
+                Live
+              </a>
+            </div>
+          </div>
+          <div className="project-description">
+            Design is complete! A social media application for sharing songs
+            that have been stuck in your head. The app connects the user's
+            spotify account for authentication and uses Firebase for the
+            backend, which stores the user's posts. Users will be able to like,
+            comment, and add songs to their Spotify playlists that other users
+            have posted.
+          </div>
+        </div>
+        <img className="project-video" src={SongGif} />
+      </div>
+      <div className="project-container">
+        <img className="project-video" src={SnailPic} />
         <div className="project-overview">
           <div className="project-name">
             <img className="project-icon" src={Snail} alt="" />
@@ -37,10 +79,10 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi labore
-            totam deleniti illum laborum quasi repellat doloremque quam error
-            suscipit sint odit, alias quisquam fugiat sunt inventore placeat
-            sapiente eos.
+            A catalogue of snail pictures. Utilizes my own REST API for
+            retrieving pictures and posting new ones (through a separate Admin
+            dashboard). NodeJS, Express, and MongoDB was used for the backend,
+            while React was used for the frontend.
           </div>
         </div>
       </div>
@@ -69,16 +111,16 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-            ipsum dolores officia odit qui commodi ipsam nesciunt eum? Explicabo
-            tempora cum amet! Eos excepturi porro quibusdam quidem cumque enim
-            numquam.
+            A mock shopping page for one of my favorite bands. Renders unique
+            pages for each individual product. Users can update the state of the
+            cart throughout the app, adding or removing products as they please.
+            React, with Zustand for state management, was used.
           </div>
         </div>
-        <div className="project-video"></div>
+        <img className="project-video" src={ShoppingCart} />
       </div>
       <div className="project-container">
-        <div className="project-video"></div>
+        <img className="project-video" src={CatGif} />
         <div className="project-overview">
           <div className="project-name">
             <img className="project-icon" src={Cat} alt="" />
@@ -103,10 +145,10 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            odio laboriosam porro enim, nesciunt culpa ut ad vel ab saepe quia
-            natus delectus recusandae sit possimus. Exercitationem saepe eveniet
-            ad.
+            A twist on the classic "Where's Waldo?". There are three levels,
+            each one much harder than the previous one. Firebase stores the
+            coordinates of the cat in the photo along with the leaderboard that
+            the user can write to if they find the cat fast enough!
           </div>
         </div>
       </div>
@@ -135,16 +177,17 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            odio laboriosam porro enim, nesciunt culpa ut ad vel ab saepe quia
-            natus delectus recusandae sit possimus. Exercitationem saepe eveniet
-            ad.
+            Gives the user the ability to create, read, and delete different
+            dreams that they've had, using local storage to store them. Asks the
+            user once a day what they dreamed of last night and then takes them
+            to the journal's home page. It also will note reoccurring dream
+            symbols. React was used for the components.
           </div>
         </div>
-        <div className="project-video"></div>
+        <img className="project-video" src={DreamJournal} />
       </div>
       <div className="project-container">
-        <div className="project-video"></div>
+        <img className="project-video" src={WeatherApp} />
         <div className="project-overview">
           <div className="project-name">
             <img className="project-icon" src={Weather} alt="" />
@@ -169,10 +212,10 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            odio laboriosam porro enim, nesciunt culpa ut ad vel ab saepe quia
-            natus delectus recusandae sit possimus. Exercitationem saepe eveniet
-            ad.
+            Utilizes the OpenWeatherMap API to find the weather of the inputted
+            city. The background will change upon different weather conditions.
+            Built in vanilla Javascript and bundled using Webpack, this was my
+            first experience handling asynchronous code.
           </div>
         </div>
       </div>

@@ -16,8 +16,8 @@ const About: FC = () => {
           doing. <u>Coding gives me the ability to create</u> whatever I want to
           create in the world, and that's one of the most freeing, powerful
           feelings. Programming has taught me how to be a better problem solver
-          by teaching me how to break things down into smaller steps and
-          understand the logic behind what's happening.
+          by making me break things down into smaller steps and understand the
+          logic behind what's happening.
         </p>
         <br />
         <p>
