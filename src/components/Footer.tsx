@@ -4,7 +4,7 @@ const Footer: FC = () => {
   return (
     <footer>
       <div className="footer-links">
-        <a href="mailto:orionwesson@gmail.com" target="_blank">
+        <a href="mai&#108;to&#58;o%&#55;2i&#111;nwe&#115;s%&#54;&#70;&#110;%40&#103;%&#54;D%61il&#46;c&#111;&#109;">
           <i
             className="fa-solid fa-paper-plane"
             style={{ color: "#fafafa" }}
