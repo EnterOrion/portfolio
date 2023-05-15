@@ -8,16 +8,21 @@ const Footer: FC = () => {
           <i
             className="fa-solid fa-paper-plane"
             style={{ color: "#fafafa" }}
+            title="Email"
           ></i>
         </a>
         <a href="https://github.com/EnterOrion" target="_blank">
-          <i className="devicon-github-original"></i>
+          <i className="devicon-github-original" title="Github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/orion-wesson-bb5b47148"
           target="_blank"
         >
-          <i className="devicon-linkedin-plain"></i>
+          <i className="devicon-linkedin-plain" title="LinkedIn"></i>
+        </a>
+
+        <a href="src/assets/files/Orion Wesson Resume.pdf" target="_blank">
+          <i className="fa-solid fa-file" title="Download Resume PDF"></i>
         </a>
       </div>
       <div className="attribution">
